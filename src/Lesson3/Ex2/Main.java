@@ -27,7 +27,7 @@ public class Main {
             phoneBook.addContact(family[i],phone[i]);
         }
         String person = "Дубровин";
-        System.out.println(ran.nextInt(phone.length - family.length) + family.length);
+//        System.out.println(ran.nextInt(phone.length - family.length) + family.length);
         int personPhone = phone[ran.nextInt(phone.length - family.length) + family.length];
 
         System.out.println("Добавим телефон " + person + "\n" + phoneBook.getContact(person));
